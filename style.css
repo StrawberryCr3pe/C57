@@ -39,19 +39,29 @@ font-family: 'Source Serif Pro', serif;
     vertical-align: middle;
 }
 .menu{
- list-style:none;
- position:absolute;
- top:10px;
- right:30px;
+ position:fixed;
+ background:white;
+ width: 100%;
+ top:0px;
+ margin-top:0px;
  z-index:45;
  cursor:pointer;
 }
 .links{
-    float:left;
-    padding-top:5px;
-    padding-bottom: 5px;
-    padding-left:9px;
-    padding-right:9px;
+    display:inline;
+        padding-left:33px;
+    padding-right:25px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font: size 20px;
+    font-size: 20px;
+}
+.links:hover{
+    font-size: 25px;
+    text-decoration:underline;
+}
+#writings a{
+    text-decoration:underline !important;
+    color: green !important;
+}
+#contact{
+    background:light-green;
 }
